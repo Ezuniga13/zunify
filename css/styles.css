@@ -150,6 +150,7 @@ a {
 .list {
     list-style: none;
     padding-left: 0;
+    color: var(--color-headings);
    
 }
 
@@ -161,7 +162,7 @@ a {
 .list--tick {
     list-style-image: url(../images/tick.svg);
     padding-left: 3rem;
-    color: var(--color-headings);
+    
 }
 
 .list--tick .list__item {
@@ -219,7 +220,7 @@ a {
     font-weight: 600;
     margin: 1rem 0;
     outline: 0;
-    padding: 2rem 3rem;
+    padding: 2rem 4vw;
     text-align: center;
     text-transform: uppercase;
     white-space: nowrap;
@@ -316,6 +317,8 @@ a {
     border: 0;
     flex-grow: 1;
     padding: 1.5rem 2rem;
+    width: 0;
+
 }
 
 .input-group .btn {
@@ -453,6 +456,11 @@ a {
 
 .media__body {
     margin: 0 2rem;
+}
+
+.media__body p {
+    color: var(--color-border);
+    opacity: .35;
 }
 
 .media__image {
@@ -792,8 +800,9 @@ a {
     max-width: 670px;
 }
 .block-domain__prices {
+    color: var(--color-headings);
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 6rem);
     font-size: 2rem;
     font-weight: 600;
@@ -909,7 +918,7 @@ a {
 .footer__copyright {
     font-size: 2.1rem;
     color: #fff;
-    opacity: .3;
+    opacity: 0.3;
 }
 
 @media screen and (min-width: 768px) {
@@ -937,7 +946,7 @@ a {
         font-size: 1.5rem;
     }
 
-    .footer__section{
+    .footer__section {
         border: 0;
     }
 
